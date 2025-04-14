@@ -7,7 +7,7 @@ services:
       container_name: mpr-app
       ports:
         - "8080:8080"
-      networks:
+    networks:
         - app-network
 
   prometheus:
